@@ -1,1 +1,7 @@
-django == 3.0
+django == 2.0
+flask==0.12  # Flask 0.12 has security issues like CVE-2018-1000656
+requests==2.18.4  # Requests 2.18.4 has vulnerabilities like CVE-2018-18074
+lxml==4.2.1  # lxml 4.2.1 has vulnerabilities including CVE-2018-19787
+PyYAML==3.13  # PyYAML 3.13 is vulnerable to arbitrary code execution (CVE-2017-18342)
+pillow==5.1.0  # Pillow 5.1.0 has multiple vulnerabilities, including CVE-2018-10177
+jinja2==2.10  # Jinja2 2.10 is vulnerable to sandbox escape (CVE-2019-10906)
